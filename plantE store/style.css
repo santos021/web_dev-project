@@ -52,7 +52,8 @@ span {
   font-size: 22px;
 }
 
-.right .fa-solid, .fas {
+.right .fa-solid,
+.fas {
   font-weight: 900;
   margin-right: 100px;
 }
@@ -93,13 +94,16 @@ span {
   width: 35%;
   margin-left: 25px;
 }
-.cont-left h1{
+
+.cont-left h1 {
   font-size: 65px;
   margin: 0;
 }
+
 .cont-left p {
   font-size: 17px;
 }
+
 .cont-left .btn {
   margin: 10px 7px;
   background-color: #ffffff;
@@ -111,21 +115,37 @@ span {
   font-size: 16px;
   text-transform: capitalize;
 }
+
 .cont-left .btn.active {
   background-color: #0FA643;
   color: white;
 }
+
 /* .cont-right{
   border: 2px solid rgb(222, 12, 12);
   margin: 10px;
   padding: 25px;
   width: 50%;
 } */
-.cont-right img{
- /* height: 80%;
- width: 100%; */
- position: absolute;
- left: 850px;
- top: 30px;
- z-index: -1;
+.cont-right img {
+  width: 630px;
+  height: 820px;
+  position: absolute;
+  left: 800px;
+  top: 30px;
+  z-index: -5;
+}
+
+.sec-container {
+  border: 2px solid blue;
+  width: fit-content;
+  margin-top: 180px;
+  background: linear-gradient(180deg, rgba(15, 166, 67, 0.13) 0%, rgba(217, 217, 217, 0.00) 100%);
+}
+.sec-container .site-img {
+  width: 160px;
+  position: absolute;
+  left: 1350px;
+  top: 700px;
+  z-index: -1;
 }
