@@ -146,9 +146,9 @@ span {
 }
 
 .sec-container .site-img {
-  width: 160px;
+  width: 151px;
   position: absolute;
-  left: 1350px;
+  left: 1368px;
   top: 700px;
   z-index: -1;
 }
