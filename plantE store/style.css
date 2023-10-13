@@ -152,7 +152,11 @@ span {
   top: 700px;
   z-index: -1;
 }
-
+.third-container .left-site-img {
+  position: absolute;
+  right: 1304px;
+  top: 1608px
+}
 /* .sec-container .cont-left {
   border: 2px solid yellow;
 } */
@@ -194,4 +198,9 @@ span {
   cursor: pointer;
   font-size: 20px;
   text-transform: capitalize;
+}
+
+.box-container{
+  border: 2px solid rgb(169, 6, 6);
+  display: flex;
 }
