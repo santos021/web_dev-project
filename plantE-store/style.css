@@ -264,9 +264,9 @@ span {
 
 }
 
-.testimonials {
+/* .testimonials {
   border: 2px solid rgb(32, 88, 179);
-}
+} */
 
 .testimonials .left-img {
   width: 123px;
@@ -326,18 +326,146 @@ span {
  }
 
  .footer {
-  border: 2px solid rgb(194, 189, 44);
+  /* border: 2px solid rgb(194, 189, 44); */
   background-color: #DAFFE7;
  }
 .footer-right-img {
   position: absolute;
-  left: 1353px;
-  top: 2840px;
-  width: 162px;
+  left: 1338px;
+  top: 2847px;
+  width: 180px;
 }
 .footer-left-img {
   position: absolute;
-  right: 1353px;
+  right: 1309px;
   top: 2840px;
-  width: 162px;
+  width: 212px;
+}
+.footer h1 {
+  text-align: center;
+  color: #0FA643;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120.2%;
+  margin: 45px 0 0 0;
+  padding: 10px;
+}
+
+.footer p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer .subscribe-bar {
+  text-align: center;
+}
+
+.footer .search {
+  border-radius: 10px;
+  outline: none;
+  padding: 21px;
+  margin: 25px -170px 5px 5px;
+  width: 990px;
+  border: none;
+  color: #ADADAD;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.footer .sbtn {
+  background: #ffffff;
+  color: #000000;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 5.76px;
+  text-transform: uppercase;
+}
+
+.footer-box {
+  /* border: 2px solid black; */
+  margin: 60px 106px 15px 150px;
+  padding: 10px 104px;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.footer-box ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 40px;
+}
+
+.footer-box .footer-1  {
+  /* border: 2px solid rgb(12, 37, 160); */
+  width: 310px;
+}
+
+.footer-box .footer-1 h3 {
+  color: #0FA643;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20.434px; 
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.footer-box .footer-2 h3 {
+  color: #0FA643;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height:  20.434px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.footer-box .footer-3 h3 {
+  color: #0FA643;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height:  20.434px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.last-footer {
+  background: #0FA643;
+  width: 100%;
+  height: 62px;
+}
+.last-footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  width: 450px;
+  height: 17px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
